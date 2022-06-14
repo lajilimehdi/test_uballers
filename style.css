@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#fff, #d3d8e8);
+    width: 400px;
+    height: 640px;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.header {
+    background-color: rgb(59, 89, 152);
+    height: 12.2%;
+    width: 341%;
+    font-family: tahoma;
+    border: 1px solid darkblue;
+
+}
+
+.fb {
+    font-size: 38px;
+    position: absolute;
+    left: 180px;
+    color: #fff;
+    top: 3.5%;
+    font-weight: bold;
+}
+
+.connexion {
+    float: right;
+    color: #fff;
+    font-size: 13px;
+    margin-top: 12px;
+    margin-right: 200px;
+}
+
+
+.btn {
+    background-color: #4267b2;
+    height: 22px;
+    color: #fff;
+    border: 1px solid darkblue;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: -18px;
+    color: #1d2129;
+}
+
+.forminscri {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 300px;
+    margin-left: -100px;
+    /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -220px;
+    /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+
+
+.inscription {
+
+    background-color: #fff;
+    border: 1px solid rgb(189, 199, 216);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    outline-color: rgb(77, 144, 154);
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+select {
+    background-color: #fff;
+    border: 1px solidrgb(189, 199, 216);
+    font-size: 13px;
+    font-weight: 400;
+    height: 35px;
+    width: 70px;
+    margin: -2;
+
+}
+
+.pddn {
+    color: rgb(54, 88, 153);
+    font-size: 11px;
+    text-decoration-color: rgb(54, 88, 153);
+    width: 150px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.sexe {
+    color: rgb(29, 33, 41);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 3px;
+    padding-right: 10px;
+    margin-top: 316px;
+
+}
+
+.condition {
+    color: rgb(102, 102, 102);
+    display: block;
+    font-size: 11px;
+    margin-bottom: 11px;
+    width: 316px;
+}
+
+.condition {
+    text-decoration: none;
+    color: rgb(137, 149, 172);
+}
+
+#soumettre {
+    width: 194px;
+    height: 39px;
+    background-color: rgb(105, 167, 78);
+    border: 1px solid rgb(59, 110, 34);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700px;
+    text-shadow: rgb(0, 0, 0, 0.5) 0px 1px 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -10px;
+
+
+}
